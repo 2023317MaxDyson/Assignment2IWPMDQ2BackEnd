@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const feeRoutes = require('./routes/feeroute.js')
+const feeRoutes = require('./routes/feeRoute')
 
 app.use((req,res,next)=> { 
 res.setHeader("Access-Control-Allow-Origin","*"); 
